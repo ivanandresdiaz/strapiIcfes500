@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pregunta",
     "pluralName": "preguntas",
-    "displayName": "pregunta"
+    "displayName": "pregunta",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,6 +15,43 @@
     "pregunta": {
       "type": "richtext",
       "required": true
+    },
+    "respuestaCorrecta": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "required": true
+    },
+    "a": {
+      "type": "text",
+      "required": true
+    },
+    "b": {
+      "type": "text"
+    },
+    "c": {
+      "type": "text"
+    },
+    "d": {
+      "type": "text"
+    },
+    "e": {
+      "type": "text"
+    },
+    "retroalimentacion": {
+      "type": "richtext",
+      "required": true
+    },
+    "materia": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::materia.materia",
+      "inversedBy": "preguntas"
     }
   }
 }

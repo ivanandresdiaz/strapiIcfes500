@@ -28,6 +28,18 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "reportes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reporte.reporte",
+      "mappedBy": "materia"
+    },
+    "preguntas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pregunta.pregunta",
+      "mappedBy": "materia"
     }
   }
 }
