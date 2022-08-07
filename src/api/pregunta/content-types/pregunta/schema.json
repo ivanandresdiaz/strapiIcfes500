@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preguntas",
+  "info": {
+    "singularName": "pregunta",
+    "pluralName": "preguntas",
+    "displayName": "pregunta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pregunta": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
