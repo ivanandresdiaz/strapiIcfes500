@@ -3,9 +3,13 @@
 Antes debe llenar las siguientes variables de entorno de la
 
 APP_KEYS= Creo que esto lo dal automaticamente cuando creas el proyecto
+
 API_TOKEN_SALT=Creo que esto lo dal automaticamente cuando creas el proyecto
+
 ADMIN_JWT_SECRET=Creo que esto lo dal automaticamente cuando creas el proyecto
+
 JWT_SECRET=Creo que esto lo dal automaticamente cuando creas el proyecto
+
 DATABASE_URL= Esta variable la obtiene de ADD-ONS automaticamente en Heroku. Pero debe agregarlo para desarrollo local. si desea. => https://youtu.be/rtxMYRLMxO0
 
 Esto lo da Cloudinary
