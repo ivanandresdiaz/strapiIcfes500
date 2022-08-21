@@ -1,6 +1,20 @@
-# 🚀 Getting started with Strapi
+# 🚀 Proyecto basico strapi listo para desplegar en Heroku
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+Antes debe llenar las siguientes variables de entorno de la
+
+APP_KEYS= Creo que esto lo dal automaticamente cuando creas el proyecto
+API_TOKEN_SALT=Creo que esto lo dal automaticamente cuando creas el proyecto
+ADMIN_JWT_SECRET=Creo que esto lo dal automaticamente cuando creas el proyecto
+JWT_SECRET=Creo que esto lo dal automaticamente cuando creas el proyecto
+DATABASE_URL= Esta variable la obtiene de ADD-ONS automaticamente en Heroku. Pero debe agregarlo para desarrollo local. si desea. => https://youtu.be/rtxMYRLMxO0
+
+Esto lo da Cloudinary
+video recomendado = > https://www.youtube.com/watch?v=NnOng-on7cQ&t=263s
+CLOUDINARY_NAME=
+CLOUDINARY_KEY=
+CLOUDINARY_SECRET=
+
+Articulo de refuerzo => https://strapi.io/blog/deploying-a-strapi-api-on-heroku
 
 ### `develop`
 
