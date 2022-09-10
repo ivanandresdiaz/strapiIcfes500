@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "splashes",
+  "info": {
+    "singularName": "splash",
+    "pluralName": "splashes",
+    "displayName": "splash"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

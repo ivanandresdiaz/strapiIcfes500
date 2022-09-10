@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plaza_digitals",
+  "info": {
+    "singularName": "plaza-digital",
+    "pluralName": "plaza-digitals",
+    "displayName": "plaza_digital"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreTienda": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
